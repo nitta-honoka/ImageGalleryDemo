@@ -1,0 +1,35 @@
+body {
+    font-family: cursive;
+    color: #333;
+    background-color: #ccc;
+    margin: 1px;
+}
+h1 {
+    color: #333;
+    background-color: transparent;
+}
+a {
+    color: #ff4328;
+    background-color: transparent;
+    font-weight: bold;
+    text-decoration: none;
+}
+ul {
+    padding: 0;
+}
+li {
+    float: left;
+    padding: 1em;
+    list-style: none;
+}
+#imageGallery {
+    list-style: none;
+}
+#imageGallery li {
+    display: inline;
+}
+#imageGallery li a img {
+    border: 0;
+    height: 200px;
+    width: 150px;
+}
